@@ -7,7 +7,7 @@ fn main() {
 }
 
 fn swap(a: &mut int, b: &mut int) {
-    let mut t = *b;
+    let t = *b;
     *b = *a;
     *a = t;
 }
